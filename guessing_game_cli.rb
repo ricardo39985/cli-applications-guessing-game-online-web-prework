@@ -1,7 +1,8 @@
 # Code your solution here!
-computers_guess = rand(1..6)
+
 pp computers_guess
 def run_guessing_game
+  computers_guess = rand(1..6)
   puts 'Please enter your guess'
   user_input = gets.chomp
   if user_input == 'exit'
