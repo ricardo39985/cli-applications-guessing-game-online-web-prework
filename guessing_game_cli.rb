@@ -1,8 +1,9 @@
 # Code your solution here!
-puts 'Please enter your guess'
+
 def run_guessing_game
+  puts 'Please enter your guess'
   computers_guess = rand(1..6)
-  user_input = gets
+  user_input = gets.chomp
   if user_input == 'exit'
     puts 'Goodbye!'
   elsif user_input.to_i == computers_guess
