@@ -1,7 +1,7 @@
 # Code your solution here!
 puts 'Please enter your guess'
 def run_guessing_game
-  computers_guess = rand(2..5)
+  computers_guess = rand(1..6)
   user_input = gets
   if user_input == 'exit'
     puts 'Goodbye!'
