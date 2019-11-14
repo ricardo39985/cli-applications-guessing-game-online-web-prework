@@ -1,7 +1,6 @@
 # Code your solution here!
 
 def run_guessing_game
-  puts 'Please enter your guess'
   computers_guess = rand(1..6)
   user_input = gets.chomp
   if user_input == 'exit'
